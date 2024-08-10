@@ -1,0 +1,61 @@
+#soulslogic {
+    color: #C54944; 
+}
+
+#gitgud {
+    color: #0B73B7; 
+}
+
+h1 {
+    text-align: center;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.odd-title {
+    color: darkred; 
+}
+
+.even-title {
+    color: darkblue; 
+}
+
+.Block {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+.block {
+    background-color: lightgray; /* Light gray background color */
+    border-radius: 15px; /* Rounded corners with a 15px radius */
+    padding: 15px; /* Add some padding inside the blocks */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.Block img {
+    float: left; 
+    width: 40%; 
+    margin-right: 10px; 
+}
+
+.Block p {
+    margin: 0;
+    padding-left: 10px; /* Add some padding to the text */
+    padding-right: 10px;
+}
+
+body {
+    background-image: url(./assets/images/background.jpg);
+}
+
+footer {
+    margin-top: 90%; 
+    clear: both; 
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5%; 
+    color: white; 
+}
